@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Paytone+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Paytone+One&family=Pixelify+Sans:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Manrope:wght@200..800&family=Paytone+One&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+@keyframes agrandarTexto {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.letra {
+  font-family: "Bitcount Prop Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+    display: inline-block;
+    animation-name: agrandarTexto;
+  animation-duration: 2s;       
+  animation-timing-function: ease-in-out; 
+  animation-iteration-count: infinite;
+}
+
+.font-grande{
+font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(246, 108, 197);
+}
+.pixel{
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color:rgb(255, 255, 255);
+  z-index: 20;
+}
+.manpore{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,118 @@
+
+.fondo-habilidades {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #fbb7f4, #5b137a);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden; 
+    padding-top: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    transition: all 0.5s ease;
+    min-height: 1.5em; 
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills {
+    width: 100%;
+    overflow: hidden; 
+    padding: 40px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.desplazar {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    width: max-content; 
+    animation: slide 25s linear infinite; 
+}
+
+.desplazar:hover {
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.variante {
+    flex: 0 0 200px; 
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.variante i {
+    font-size: 150px; 
+    margin-bottom: 15px;
+    display: block;
+}
+
+.variante p {
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 500;
+}
+
+.variante:hover {
+    transform: translateY(-15px);
+    background: #a215c2; 
+    box-shadow: 0 15px 30px rgba(141, 9, 170, 0.4);
+}
+
+.skills::-webkit-scrollbar {
+    display: none;
+}
+.skills {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+@media (max-width:768px){
+
+  .fondo-habilidades {
+        width: 100%;
+        height: 100vh;
+        padding: 25px;
+        gap: 10px;
+        padding-top: 80px;
+    }
+    .fondo-habilidades h1 {
+        font-size: 2rem;
+    }
+    .skills p{
+        font-size: 1.2rem;
+    }
+
+
+}

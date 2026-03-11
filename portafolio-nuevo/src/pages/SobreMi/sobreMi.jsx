@@ -10,11 +10,11 @@ export default function SobreMi() {
     return (
         
     <div className='fondo-sobreMi'>
-        <img src="../img/nube.png" alt="" className='nube' />
-        <img src="../img/nube.png" alt="" className='nube-dos' />
-        <img src="../img/nube.png" alt="" className='nube-tres' />
-        <img src="../img/chopper.webp" alt="" className='chopper' />
-        <img src="../img/lufy.gif" alt="" className='luffy' />
+        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube' />
+        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube-dos' />
+        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube-tres' />
+        <img src="/PortafolioNuevo/img/chopper.webp" alt="" className='chopper' />
+        <img src="/PortafolioNuevo/img/lufy.gif" alt="" className='luffy' />
 
         
         
@@ -27,7 +27,7 @@ export default function SobreMi() {
                     </h2>
                 </div>
             
-            <img src="../img/ga.gif" alt="gif"  className='gif'/>
+            <img src="/PortafolioNuevo/img/ga.gif" alt="gif"  className='gif'/>
             </div>
             <button className='boton' onClick={() =>navigate('/habilidades')}>▶</button>
             

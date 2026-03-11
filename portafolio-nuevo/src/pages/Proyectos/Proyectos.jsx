@@ -6,7 +6,7 @@ export default function Proyectos() {
         <h1 >Mis proyectos</h1>
         <div className='conct-pro'>
             <a href="https://github.com/KeslyUA/SimuladorCombate.git" className='pro' target="_blank" rel="noreferrer">
-                <img src="../img/loki vs thor.png" alt="Simulador de Combate" /> 
+                <img src="/PortafolioNuevo/img/loki vs thor.png" alt="Simulador de Combate" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Simulador de Combate RPG (Java Engine)</h2>
                     
@@ -38,7 +38,7 @@ export default function Proyectos() {
                 </div>
             </a>
             <a href="https://github.com/KeslyUA/Sistema_Minimarket.git" className='pro' target="_blank" rel="noreferrer">
-                <img src="../img/minimaket.png" alt="Sistema Minimarket" /> 
+                <img src="/PortafolioNuevo/img/minimaket.png" alt="Sistema Minimarket" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Sistema Integral Minimarket</h2>
                     
@@ -72,7 +72,7 @@ export default function Proyectos() {
             </a>
 
             <a href="https://github.com/KeslyUA/BackEndProyecto.git" className='pro' target="_blank" rel="noreferrer">
-                <img src="../img/backend-clinica.png" alt="Kesly" />
+                <img src="/PortafolioNuevo/img/backend-clinica.png" alt="Kesly" />
                 <div className='info-proyecto'>
                     <h2 className='titulo' >API de Gestión Clínica y Reportes</h2>
                     <div>
@@ -106,7 +106,7 @@ export default function Proyectos() {
             </a>
 
             <a href="hhttps://github.com/KeslyUA/FrondProyecto.git" className='pro' target="_blank" rel="noreferrer">
-                <img src="../img/clinica.png"  /> 
+                <img src="/PortafolioNuevo/img/clinica.png"  /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Portal de Gestion Clinica (FrontEnd)</h2>
 
@@ -139,7 +139,7 @@ export default function Proyectos() {
             </a>
 
             <a href="https://github.com/KeslyUA/Api-veterinaria.git" className='pro' target="_blank" rel="noreferrer">
-                <img src="../img/vetapi.png" alt="API Veterinaria" /> 
+                <img src="/PortafolioNuevo/img/vetapi.png" alt="API Veterinaria" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>API Veterinaria</h2>
 
@@ -175,7 +175,7 @@ export default function Proyectos() {
             </a>
 
             <a href="https://github.com/KeslyUA/Foro-publico.git" className='pro' target="_blank" rel="noreferrer">
-                <img src="../img/foro.png" alt="Foro Público" /> 
+                <img src="/PortafolioNuevo/img/foro.png" alt="Foro Público" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Plataforma de Foro Público</h2>
                     
@@ -209,7 +209,7 @@ export default function Proyectos() {
             </a>
 
             <a href="https://github.com/KeslyUA/proyecto1.git" className='pro' target="_blank" rel="noreferrer">
-                <img src="../img/inventario.png" alt="Sistema de Inventario" /> 
+                <img src="/PortafolioNuevo/img/inventario.png" alt="Sistema de Inventario" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Sistema de Gestión de Inventarios</h2>
                     

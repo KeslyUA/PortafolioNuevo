@@ -10,11 +10,11 @@ export default function SobreMi() {
     return (
         
     <div className='fondo-sobreMi'>
-        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube' />
-        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube-dos' />
-        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube-tres' />
-        <img src="/PortafolioNuevo/img/chopper.webp" alt="" className='chopper' />
-        <img src="/PortafolioNuevo/img/lufy.gif" alt="" className='luffy' />
+        <img src="/PortafolioNuevo/img/nube.png" className='nube' />
+        <img src="/PortafolioNuevo/img/nube.png" className='nube-dos' />
+        <img src="/PortafolioNuevo/img/nube.png" className='nube-tres' />
+        <img src="/PortafolioNuevo/img/chopper.webp" className='chopper' />
+        <img src="/PortafolioNuevo/img/lufy.gif" className='luffy' />
 
         
         

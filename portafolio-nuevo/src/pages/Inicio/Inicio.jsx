@@ -12,21 +12,21 @@ export default function Inicio() {
     return (
         <div className='fondo-inicio'>
 
-        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube' />
-        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube-dos' />
-        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube-tres' />
-        <img src="/PortafolioNuevo/img/nube.png" alt="" className='nube-cuatro' />
-        <img src="/PortafolioNuevo/img/chopper.webp" alt="" className='chopper' />
-        <img src="/PortafolioNuevo/img/lufy.gif" alt="" className='luffy' />
-        <img src="/PortafolioNuevo/img/mando.webp" alt="" className='mando' />
-        <img src="/PortafolioNuevo/img/mando.webp" alt="" className='mando-dos' />
+        <img src="/PortafolioNuevo/img/nube.png"  className='nube' />
+        <img src="/PortafolioNuevo/img/nube.png"  className='nube-dos' />
+        <img src="/PortafolioNuevo/img/nube.png"  className='nube-tres' />
+        <img src="/PortafolioNuevo/img/nube.png"  className='nube-cuatro' />
+        <img src="/PortafolioNuevo/img/chopper.webp"  className='chopper' />
+        <img src="/PortafolioNuevo/img/lufy.gif"  className='luffy' />
+        <img src="/PortafolioNuevo/img/mando.webp"  className='mando' />
+        <img src="/PortafolioNuevo/img/mando.webp"  className='mando-dos' />
 
 
       <div className='marco-fondo'>
         <div className='fondo'>
 
           <h1 className='letra'>Bienvenidos a mi portafolio</h1>
-          <img src="/PortafolioNuevo/img/Kesly.png" className='foto' />
+          <img src="/PortafolioNuevo/img/kesly.png" className='foto' />
             <p className='nombre'>Kesly Ureta Aguilar</p>
           <button className='start' onClick={() => navigate('/sobreMi')}><p className='pixel'>Start ▶</p></button>
           <br />

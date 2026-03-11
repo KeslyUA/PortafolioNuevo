@@ -7,7 +7,7 @@ import './styles/fonts.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/PortafolioNuevo">
       <App />
     </BrowserRouter>
   </StrictMode>,

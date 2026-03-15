@@ -122,7 +122,6 @@ width: 300px;
   top: 500px;
   left: 218px;
   transition: transform 0.5s ease;
-
   transform: rotate(45deg); 
 }
 .mando-dos{
@@ -236,6 +235,18 @@ width: 300px;
   .start p{
     font-size: 1.5rem;
     margin: 0;
+  }
+  .mando{
+    width: 100px;
+    height: 100px;
+    left: 5%;
+    top: 85%;
+  }
+  .mando-dos{
+    width: 100px;
+    height: 100px;
+    left: 67%;
+    top: 8%;
   }
 
 }

@@ -239,8 +239,8 @@ width: 300px;
   .mando{
     width: 200px;
     height: 200px;
-    left: -20%;
-    top: 90%;
+    left: -10%;
+    top: 80%;
     transform: rotate(-150deg)
   }
   .mando-dos{

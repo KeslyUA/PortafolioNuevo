@@ -74,11 +74,15 @@ button{
     text-align: center;
     justify-content: center;
     padding-top: 80px;
+    place-content: center;
   }
   .fondo-contacto h1{
     font-size: 2rem;
   }
   .fondo-contacto h3{
     font-size: 1.2rem;
+  }
+  .ti-contacto{
+    display: none;
   }
 }

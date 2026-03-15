@@ -29,7 +29,7 @@ export default function Contacto() {
     return (
         <div className='fondo-contacto'>
             <div>
-                <h1>Contacto</h1>
+                <h1 className='ti-contacto'>Contacto</h1>
                 <p>Gracias por visitar mi página!</p>
                 <h3>Puedes contactarme o darme tu opinión.</h3>
             </div>

@@ -237,16 +237,13 @@ width: 300px;
     margin: 0;
   }
   .mando{
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
     left: 5%;
-    top: 85%;
+    top: 80%;
   }
   .mando-dos{
-    width: 100px;
-    height: 100px;
-    left: 67%;
-    top: 8%;
+    display: none;
   }
 
 }

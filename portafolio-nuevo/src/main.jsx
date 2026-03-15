@@ -7,7 +7,7 @@ import './styles/fonts.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter basename="/PortafolioNuevo">
+    <HashRouter >
       <App />
     </HashRouter>
   </StrictMode>,

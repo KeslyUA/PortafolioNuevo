@@ -5,6 +5,46 @@ export default function Proyectos() {
     <div className='fondo-proyectos'>
         <h1 >Mis proyectos</h1>
         <div className='conct-pro'>
+            <a href="https://github.com/KeslyUA/SistemaDeGestionDeBuses.git" className='pro' target="_blank" rel="noreferrer">
+                <img src="/PortafolioNuevo/img/bus.png" alt="Bus" /> 
+                <div className='info-proyecto'>
+                    <h2 className='titulo'>Sistema de Gestión de Buses</h2>
+                    
+                    <div>
+                        <h3 className='subtitulo'>Propósito:</h3>
+                        <p className='descripcion'>
+                            El objetivo principal de este proyecto FullStack es proporcionar una herramienta administrativa eficiente 
+                            que permita listar y consultar información detallada de los buses de la flota. 
+                            El sistema se enfoca en la integridad de los datos, la seguridad de los accesos 
+                            y una experiencia de usuario fluida, permitiendo que los administradores tomen 
+                            decisiones basadas en información actualizada en tiempo real.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 className='subtitulo'>Tecnologías Clave:</h3>
+                        <ul className='enunciado'>
+                            <li><span>Backend: </span>Desarrollado con Java 17 y Spring Boot 3.5. He implementado Spring Data JPA con Hibernate</li>
+                            <li><span>Frontend: </span>React 19 con TypeScript y Vite. La interfaz es moderna, tipada y reactiva.</li>
+                            <li><span>Base de Datos: </span>MySQL 8.0, asegurando una gestión relacional de datos sólida y confiable.</li>
+                            <li><span>Seguridad: </span>Implementación de Spring Security para la protección de endpoints sensibles (CORS y Autenticación).</li>
+                            <li><span>Despliegue y DevOps: </span>Docker y Docker Compose para garantizar que el sistema funcione de forma idéntica en cualquier entorno de desarrollo o producción.</li>
+                            <li><span>UI Framework: </span>Material UI (MUI) para una estética profesional y componentes responsivos.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className='subtitulo'>Funcionalidades:</h3>
+                        <ul className='enunciado'>
+                            <li><span>Listado General de Buses: </span>Una tabla interactiva que muestra todos los buses registrados, con carga optimizada desde la API.</li>
+                            <li><span>Consulta Detallada: </span>Capacidad de consultar información específica de un bus mediante su ID único.</li>
+                            <li><span>Seguridad por Endpoints: </span>Acceso restringido mediante credenciales configuradas, protegiendo la información de la flota.</li>
+                            <li><span>Paginación: </span>Mi backend solo envía los datos necesarios para la página actual, lo que reduce drásticamente el ancho de banda y mejora la experiencia del usuario final en conexiones lentas.</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+
             <a href="https://github.com/KeslyUA/SimuladorCombate.git" className='pro' target="_blank" rel="noreferrer">
                 <img src="/PortafolioNuevo/img/loki vs thor.png" alt="Simulador de Combate" /> 
                 <div className='info-proyecto'>

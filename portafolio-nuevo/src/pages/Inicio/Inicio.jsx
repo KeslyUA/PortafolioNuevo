@@ -40,7 +40,7 @@ export default function Inicio() {
             <a href="mailto:kesly2805@gmail.com" title="kesly2805@gmail.com" target="_blank" rel="noopener noreferrer">
               <EmailIcon />
             </a>
-            <a href="https://wa.me/972056471" title='972056471' target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/+51972056471" title='972056471' target="_blank" rel="noopener noreferrer">
               <WhatsAppIcon />
             </a>
           </div>

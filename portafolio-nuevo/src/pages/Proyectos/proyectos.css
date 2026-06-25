@@ -13,7 +13,7 @@
 
 h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 1rem;
     margin: 10px 0;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
@@ -22,6 +22,10 @@ h1 {
     overflow-y: auto;
     scrollbar-width: none;    
     -ms-overflow-style: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 .info-proyecto .titulo,.subtitulo,.descripcion,.enunciado li{
     font-family: "Manrope", sans-serif;
@@ -36,14 +40,14 @@ h1 {
     font-weight: 700;
 }
 .titulo{
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(21, 226, 237);
 }
 .subtitulo{
-    font-size: 18px;
+    font-size: 15px;
 }
 .descripcion,.enunciado li{
-    font-size: 13px;
+    font-size: 10px;
     text-align: left;
 }
     
@@ -84,6 +88,37 @@ h1 {
     transition: all 0.4;
     place-items: center;
     padding: 40px;
+    position: relative;
+  overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: rgba(0,0,0,0);
+    opacity: 0;
+    transition: 0.3s ease;
+    z-index: 10;
+}
+
+.pro:hover .overlay {
+    background: rgba(0,0,0,0.6);
+    opacity: 1;
+}
+
+.btn-ver {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #15e2ed;
+    cursor: pointer;
 }
 .conct-pro img {
     width: 300px;
@@ -113,6 +148,10 @@ h1 {
         height: auto;
         padding: 20px;
     }
+    .pro:active .overlay {
+        background: rgba(0,0,0,0.6);
+        opacity: 1;
+    }
     .conct-pro{
         height: 85%;
         width: 100vw;
@@ -120,12 +159,6 @@ h1 {
         flex-direction: column;
         gap: 40px;
         padding: 10px;
-    }
-    .pro{
-        width: 90%;
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
     }
     .conct-pro img{
         width: 100%;

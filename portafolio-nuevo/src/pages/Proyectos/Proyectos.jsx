@@ -1,11 +1,59 @@
-import './proyectos.css'
+import './proyectos.css';
+import InsertLinkTwoToneIcon from '@mui/icons-material/InsertLinkTwoTone';
+import Button from '@mui/material/Button';
 
 export default function Proyectos() {
     return (
     <div className='fondo-proyectos'>
         <h1 >Mis proyectos</h1>
         <div className='conct-pro'>
-            <a href="https://github.com/KeslyUA/SistemaDeGestionDeBuses.git" className='pro' target="_blank" rel="noreferrer">
+            <div  className='pro' target="_blank" rel="noreferrer">
+                <img src="/PortafolioNuevo/img/biblioteca.png" alt="Bus" /> 
+                <div className='info-proyecto'>
+                    <h2 className='titulo'>Sistema de Gestión de prestamos de libros</h2>
+                    
+                    <div>
+                        <h3 className='subtitulo'>Propósito:</h3>
+                        <p className='descripcion'>
+                            El sistema de gestión de préstamos de libros tiene como objetivo principal digitalizar 
+                            y automatizar el proceso de administración de una biblioteca, permitiendo un control eficiente 
+                            de los libros, usuarios y movimientos de préstamo y devolución.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 className='subtitulo'>Tecnologías Clave:</h3>
+                        <ul className='enunciado'>
+                            <li><span>Backend: </span>Java 17,Spring Boot 4.1.0(Spring Web,Spring Data JPA)</li>
+                            <li><span>Frontend: </span>Angular 21</li>
+                            <li><span>Base de Datos: </span>PostgreSQL</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 className='subtitulo'>Funcionalidades:</h3>
+                        <ul className='enunciado'>
+                            <li><span>Registro de libros: </span>Se encarga de guardar,editar, eliminar información de libro y emitir documento pdf de contrato de prestamo .</li>
+                            <li><span>Registro de usuario: </span>Registra los datos del usuario con la autentificación de su DNI(integración de api DNI reniec),
+                            se seleccionaran los libros prestados y con fecha de prestamos se calculara el plazo de devolución automaticamente.</li>
+                            <li><span>Historial de prestamo: </span>Muestra el registro de prestamos pendientes con estado (activo/moroso)para identificar retraso de devolución y genera reporte de prestamos.</li>
+                            <li><span>Dashboard: </span>Panel estadístico para identificar ranking de libros y autores mas demandados.</li>
+                            <li><span>Proceso de devolucion de libro: </span>filtra usuario,detecta libros prestados,verificar estado
+                            de libro devuelto y realiza calculo de monto de penalizacion si lo amerita.</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div className="overlay">
+                    <Button variant="outlined" href="https://github.com/KeslyUA/Biblioteca.git">
+                        <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> FrontEnd
+                    </Button>
+                    <Button variant="outlined" href="https://github.com/KeslyUA/Backend-biblioteca.git">
+                        <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> BackEnd
+                    </Button>
+                </div>
+            </div>
+            <div className='pro' target="_blank" rel="noreferrer">
                 <img src="/PortafolioNuevo/img/bus.png" alt="Bus" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Sistema de Gestión de Buses</h2>
@@ -15,9 +63,7 @@ export default function Proyectos() {
                         <p className='descripcion'>
                             El objetivo principal de este proyecto FullStack es proporcionar una herramienta administrativa eficiente 
                             que permita listar y consultar información detallada de los buses de la flota. 
-                            El sistema se enfoca en la integridad de los datos, la seguridad de los accesos 
-                            y una experiencia de usuario fluida, permitiendo que los administradores tomen 
-                            decisiones basadas en información actualizada en tiempo real.
+                           
                         </p>
                     </div>
 
@@ -42,10 +88,16 @@ export default function Proyectos() {
                             <li><span>Paginación: </span>Mi backend solo envía los datos necesarios para la página actual, lo que reduce drásticamente el ancho de banda y mejora la experiencia del usuario final en conexiones lentas.</li>
                         </ul>
                     </div>
+                    <div className="overlay">
+                        <Button variant="outlined"  href="https://github.com/KeslyUA/SistemaDeGestionDeBuses.git">
+                            <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> FrontEnd y BackEnd
+                        </Button>
+                        
+                    </div>
                 </div>
-            </a>
+            </div>
 
-            <a href="https://github.com/KeslyUA/SimuladorCombate.git" className='pro' target="_blank" rel="noreferrer">
+            <div  className='pro' target="_blank" rel="noreferrer">
                 <img src="/PortafolioNuevo/img/loki vs thor.png" alt="Simulador de Combate" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Simulador de Combate RPG (Java Engine)</h2>
@@ -53,7 +105,8 @@ export default function Proyectos() {
                     <div>
                         <h3 className='subtitulo'>Propósito:</h3>
                         <p className='descripcion'>
-                            Motor de simulación de batallas por turnos que calcula enfrentamientos automáticos basados en estadísticas de personajes, probabilidad de acierto y daño crítico.
+                            Motor de simulación de batallas por turnos que calcula enfrentamientos automáticos basados en estadísticas de personajes, 
+                            probabilidad de acierto y daño crítico.
                         </p>
                     </div>
 
@@ -74,10 +127,15 @@ export default function Proyectos() {
                             <li><span>Registro de Combate: </span>Bitácora detallada de eventos (Log) para el seguimiento de cada acción realizada durante la batalla.</li>
                         </ul>
                     </div>
+                    <div className="overlay">
+                        <Button variant="outlined" href="https://github.com/KeslyUA/SimuladorCombate.git">
+                            <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> BackEnd
+                        </Button>
+                    </div>
 
                 </div>
-            </a>
-            <a href="https://github.com/KeslyUA/Sistema_Minimarket.git" className='pro' target="_blank" rel="noreferrer">
+            </div>
+            <div  className='pro' target="_blank" rel="noreferrer">
                 <img src="/PortafolioNuevo/img/minimaket.png" alt="Sistema Minimarket" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Sistema Integral Minimarket</h2>
@@ -108,77 +166,57 @@ export default function Proyectos() {
                             <li><span>Reportes: </span>Graficos estadisticos de reporte de venta y productos</li>
                         </ul>
                     </div>
+                    <div className="overlay">
+                        <Button variant="outlined" href="https://github.com/KeslyUA/Sistema_Minimarket.git">
+                            <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> Frontend y Backend
+                        </Button>
+                    </div>
                 </div>
-            </a>
+            </div>
 
-            <a href="https://github.com/KeslyUA/BackEndProyecto.git" className='pro' target="_blank" rel="noreferrer">
+            <div  className='pro' target="_blank" rel="noreferrer">
                 <img src="/PortafolioNuevo/img/backend-clinica.png" alt="Kesly" />
                 <div className='info-proyecto'>
-                    <h2 className='titulo' >API de Gestión Clínica y Reportes</h2>
+                    <h2 className='titulo' >Sistema de Gestión Clínica y Reportes</h2>
                     <div>
                         <h3 className='subtitulo'>Proposito:</h3>
-                        <p className='descripcion'>Desarrollo de una Web API robusta para la centralización de historiales clínicos, permitiendo la gestión eficiente de pacientes y la generación de reportes médicos automatizados bajo altos estándares de seguridad. </p>
+                        <p className='descripcion'>Desarrollo de una Web robusta para la centralización de historiales clínicos, permitiendo la gestión eficiente de pacientes y la generación de reportes médicos automatizados bajo altos estándares de seguridad. </p>
                     </div>
 
                     <div>
                         <h3 className='subtitulo'>Tecnologías Clave:</h3>
 
                         <ul className='enunciado'>
-                            <li><span>C# & .NET 6: </span>Implementación de ASP.NET Core para un backend escalable y de alto rendimiento.</li>
-                            <li><span>Entity Framework Core: </span>ORM para el mapeo y gestión eficiente de la base de datos SQL Server.</li>
-                            <li><span>Arquitectura en Capas: </span>Separación clara de lógica de negocio, acceso a datos y controladores (Patrón Repository/Service).</li>
+                            <li><span>Frontend: </span>Angular 14,RxJS,Angular Material</li>
+                            <li><span>BackEndtend: </span>C# & .NET 6,Entity Framework Core</li>
+                            <li><span>Base de datos: </span>Sql serve</li>
                         </ul>
                     </div>
                     
                     <div>
                         <h3 className='subtitulo'>Funcionalidades:</h3>
                         <ul className='enunciado'>
-                            <li><span>Endpoints RESTful: </span>CRUD completo para el manejo de pacientes, citas y diagnósticos. </li>
+                            <li><span>Registro de citas: </span>CRUD completo para el manejo de pacientes, agendacion de citas. </li>
                             <li><span>Generación de Reportes: </span>Lógica de servidor para procesar datos clínicos y exportar reportes detallados. </li>
                             <li><span>Seguridad de Datos: </span>Implementación de validaciones y DTOs para proteger la información del paciente. </li>
                         </ul>
                     </div>
 
-                    
+                    <div className="overlay">
+                        <Button variant="outlined" href="hhttps://github.com/KeslyUA/FrondProyecto.git">
+                            <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> FrontEnd
+                        </Button>
+                        <Button variant="outlined" href="https://github.com/KeslyUA/BackEndProyecto.git">
+                            <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> BackEnd
+                        </Button>
+                    </div>
                     
                 
                 </div>
-            </a>
+            </div>
 
-            <a href="hhttps://github.com/KeslyUA/FrondProyecto.git" className='pro' target="_blank" rel="noreferrer">
-                <img src="/PortafolioNuevo/img/clinica.png"  /> 
-                <div className='info-proyecto'>
-                    <h2 className='titulo'>Portal de Gestion Clinica (FrontEnd)</h2>
 
-                    <div>
-                        <h3 className='subtitulo'>Proposito:</h3>
-                        <p className='descripcion'>Interfaz administrativa de alto rendimiento diseñada para la visualización y gestión de expedientes médicos, optimizando la interacción del usuario mediante componentes reactivos y flujos de trabajo intuitivos. </p>
-                    </div>
-
-                    <div>
-                        <h3 className='subtitulo'>Tecnologías Clave:</h3>
-                        <ul className='enunciado'>
-                            <li><span>Angular 14: </span>Framework robusto para la creación de una SPA (Single Page Application) escalable y tipada con TypeScript.</li>
-                            <li><span>Angular Material: </span>Implementación de componentes de UI premium para una experiencia de usuario (UX) moderna y accesible.</li>
-                            <li><span>RxJS: </span>Gestión avanzada de flujos de datos asíncronos y comunicación eficiente con la API.</li>
-                            <li><span>Reactive Forms: </span>Manejo complejo de formularios con validaciones en tiempo real para el registro de datos clínicos.</li>
-                            <li><span>Moment.js: </span>Procesamiento y formateo preciso de fechas y agendas médicas.</li>
-                        </ul>
-                    </div>
-                    
-                    <div>
-                        <h3 className='subtitulo'>Funcionalidades:</h3>
-                        <ul className='enunciado'>
-                            <li><span>Gestión de Formularios: </span>Entrada de datos estructurada para diagnósticos, pacientes y tratamientos.</li>
-                            <li><span>Navegación Fluida: </span>Sistema de enrutamiento (Angular Router) para una transición instantánea entre secciones sin recarga de página.</li>
-                            <li><span>Consumo de API REST: </span>Integración completa con el backend de .NET para la persistencia de datos en tiempo real.</li>
-                            <li><span>Dashboard Médico:</span>Panel de control centralizado con acceso rápido a las funciones principales del sistema.</li>
-                        </ul>
-                    </div>
-                </div>
-            </a>
-
-            <a href="https://github.com/KeslyUA/Api-veterinaria.git" className='pro' target="_blank" rel="noreferrer">
+            <div  className='pro' target="_blank" rel="noreferrer">
                 <img src="/PortafolioNuevo/img/vetapi.png" alt="API Veterinaria" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>API Veterinaria</h2>
@@ -187,7 +225,7 @@ export default function Proyectos() {
                         <h3 className='subtitulo'>Proposito:</h3>
                         <p className='descripcion'>
                             Desarrollo de una API REST para la gestión de una clínica veterinaria, permitiendo administrar información de pacientes, consultas médicas y operaciones del sistema mediante una arquitectura backend organizada y escalable.
-                            esta API fue desarrollada como backend para sistemas de gestión clínica y puede integrarse fácilmente con aplicaciones frontend modernas desarrolladas en frameworks como React o Angular.
+                            
                         </p>
                     </div>
 
@@ -211,10 +249,15 @@ export default function Proyectos() {
                             <li><span>Persistencia de Datos: </span> Almacenamiento seguro de información clínica mediante SQL Server.</li>
                         </ul>
                     </div>
+                    <div className="overlay">
+                        <Button variant="outlined" href="https://github.com/KeslyUA/Api-veterinaria.git">
+                            <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> BackEnd
+                        </Button>
+                    </div>
                 </div>
-            </a>
+            </div>
 
-            <a href="https://github.com/KeslyUA/Foro-publico.git" className='pro' target="_blank" rel="noreferrer">
+            <div  className='pro' target="_blank" rel="noreferrer">
                 <img src="/PortafolioNuevo/img/foro.png" alt="Foro Público" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Plataforma de Foro Público</h2>
@@ -245,10 +288,15 @@ export default function Proyectos() {
                             <li><span>Autenticación: </span>Registro de usuarios con validación de credenciales por medio de envio de correo de autentificacion para una participación segura.</li>
                         </ul>
                     </div>
+                    <div className="overlay">
+                        <Button variant="outlined" href="https://github.com/KeslyUA/Foro-publico.git">
+                            <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> FrontEnd y Backend
+                        </Button>
+                    </div>
                 </div>
-            </a>
+            </div>
 
-            <a href="https://github.com/KeslyUA/proyecto1.git" className='pro' target="_blank" rel="noreferrer">
+            <div  className='pro' target="_blank" rel="noreferrer">
                 <img src="/PortafolioNuevo/img/inventario.png" alt="Sistema de Inventario" /> 
                 <div className='info-proyecto'>
                     <h2 className='titulo'>Sistema de Gestión de Inventarios</h2>
@@ -277,8 +325,13 @@ export default function Proyectos() {
                             <li><span>Reportes Dinámicos: </span>Generación de vistas detalladas sobre el estado actual del inventario</li>
                         </ul>
                     </div>
+                    <div className="overlay">
+                        <Button variant="outlined" href="https://github.com/KeslyUA/proyecto1.git">
+                            <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> FrontEnd y Backend
+                        </Button>
+                    </div>
                 </div>
-            </a>
+            </div>
         </div>
         
              

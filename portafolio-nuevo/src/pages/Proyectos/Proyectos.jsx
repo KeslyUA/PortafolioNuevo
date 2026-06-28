@@ -51,6 +51,9 @@ export default function Proyectos() {
                     <Button variant="outlined" href="https://github.com/KeslyUA/Backend-biblioteca.git">
                         <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon> BackEnd
                     </Button>
+                    <Button variant="outlined" href='https://biblioteca-z4fj.onrender.com/libro'>
+                        <InsertLinkTwoToneIcon></InsertLinkTwoToneIcon>Proyecto
+                    </Button>
                 </div>
             </div>
             <div className='pro' target="_blank" rel="noreferrer">

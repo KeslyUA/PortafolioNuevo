@@ -1,0 +1,57 @@
+import { useNavigate } from 'react-router-dom';
+import './Inicio.css'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+
+
+export default function Inicio() {
+    
+    const navigate = useNavigate();
+    return (
+        <div className='fondo-inicio'>
+
+        <img src="/PortafolioNuevo/img/nube.png"  className='nube' />
+        <img src="/PortafolioNuevo/img/nube.png"  className='nube-dos' />
+        <img src="/PortafolioNuevo/img/nube.png"  className='nube-tres' />
+        <img src="/PortafolioNuevo/img/nube.png"  className='nube-cuatro' />
+        <img src="/PortafolioNuevo/img/chopper.webp"  className='chopper' />
+        <img src="/PortafolioNuevo/img/lufy.gif"  className='luffy' />
+        <img src="/PortafolioNuevo/img/mando.webp"  className='mando' />
+        <img src="/PortafolioNuevo/img/mando.webp"  className='mando-dos' />
+
+
+      <div className='marco-fondo'>
+        <div className='fondo'>
+
+          <h1 className='letra'>Bienvenidos a mi portafolio</h1>
+          <img src="/PortafolioNuevo/img/kesly.png" className='foto' />
+            <p className='nombre'>Kesly Ureta Aguilar</p>
+          <button className='start' onClick={() => navigate('/sobreMi')}><p className='pixel'>Start ▶</p></button>
+          <br />
+          <div className='links'>
+            <a href="https://github.com/KeslyUA" target="_blank" rel="noopener noreferrer">
+            <GitHubIcon />
+            </a>
+            <a href="https://www.linkedin.com/in/kesly-ureta-aguilar-061a1a267/" target="_blank" rel="noopener noreferrer">
+              <LinkedInIcon />
+            </a>
+            <a href="mailto:kesly2805@gmail.com" title="kesly2805@gmail.com" target="_blank" rel="noopener noreferrer">
+              <EmailIcon />
+            </a>
+            <a href="https://wa.me/+51972056471" title='972056471' target="_blank" rel="noopener noreferrer">
+              <WhatsAppIcon />
+            </a>
+          </div>
+          
+        </div>
+        
+      </div>
+
+      
+       
+
+     </div>
+    )
+}
